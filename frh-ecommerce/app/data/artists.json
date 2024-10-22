@@ -1,0 +1,58 @@
+[
+    {
+        "username": "rouaa",
+        "password": "seller1_password",
+        "id": 1,
+        "name": "Rouaa",
+        "isLoggedIn": false,
+        "balance": 607
+    },
+    {
+        "username": "hams",
+        "password": "seller2_password",
+        "id": 2,
+        "name": "Hams",
+        "isLoggedIn": false,
+        "balance": 1258
+    },
+    {
+        "username": "fatma",
+        "password": "seller3_password",
+        "id": 3,
+        "name": "Fatma",
+        "isLoggedIn": false,
+        "balance": 861
+    },
+    {
+        "username": "sara",
+        "password": "seller4_password",
+        "id": 4,
+        "name": "Sara",
+        "isLoggedIn": false,
+        "balance": 751
+    },
+    {
+        "username": "yasmeen",
+        "password": "seller5_password",
+        "id": 5,
+        "name": "Yasmeen",
+        "isLoggedIn": false,
+        "balance": 970
+    },
+    {
+        "username": "josje",
+        "password": "seller6_password",
+        "id": 6,
+        "name": "Josje",
+        "isLoggedIn": false,
+        "balance": 754
+    },
+    {
+        "username": "ally",
+        "password": "seller7_password",
+        "id": 7,
+        "name": "Ally",
+        "isLoggedIn": false,
+        "balance": 524
+    }
+]

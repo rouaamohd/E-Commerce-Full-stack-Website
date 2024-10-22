@@ -1,0 +1,143 @@
+[
+    {
+        "username": "john_doe",
+        "password": "secure_password",
+        "balance": 1000.0,
+        "isLoggedIn": false,
+        "purchaseHistory": [],
+        "type": "customer",
+        "name": "John Doe"
+    },
+    {
+        "username": "jane_smith",
+        "password": "another_secure_password",
+        "balance": 1500.0,
+        "isLoggedIn": false,
+        "purchaseHistory": [],
+        "type": "customer",
+        "name": "Jane Smith"
+    },
+    {
+        "username": "bob_johnson",
+        "password": "bobspassword123",
+        "balance": 800.0,
+        "isLoggedIn": false,
+        "purchaseHistory": [],
+        "type": "customer",
+        "name": "Bob Johnson"
+    },
+    {
+        "username": "alice_williams",
+        "password": "password123",
+        "balance": 2000.0,
+        "isLoggedIn": false,
+        "purchaseHistory": [],
+        "type": "customer",
+        "name": "Alice Williams"
+    },
+    {
+        "username": "michael_brown",
+        "password": "mikepass",
+        "balance": 1200.0,
+        "isLoggedIn": false,
+        "purchaseHistory": [],
+        "type": "customer",
+        "name": "Michael Brown"
+    },
+    {
+        "username": "rouaa",
+        "password": "seller1_password",
+        "id": 1,
+        "name": "Rouaa",
+        "soldItems": [],
+        "itemsOnSale": [
+            "001"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 607,
+        "purchaseHistory": []
+    },
+    {
+        "username": "hams",
+        "password": "seller2_password",
+        "id": 2,
+        "name": "Hams",
+        "soldItems": [],
+        "itemsOnSale": [
+            "002"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 1258,
+        "purchaseHistory": []
+    },
+    {
+        "username": "fatma",
+        "password": "seller3_password",
+        "id": 3,
+        "name": "Fatma",
+        "soldItems": [],
+        "itemsOnSale": [
+            "003"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 861,
+        "purchaseHistory": []
+    },
+    {
+        "username": "sara",
+        "password": "seller4_password",
+        "id": 4,
+        "name": "Sara",
+        "soldItems": [],
+        "itemsOnSale": [
+            "005"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 751,
+        "purchaseHistory": []
+    },
+    {
+        "username": "yasmeen",
+        "password": "seller5_password",
+        "id": 5,
+        "name": "Yasmeen",
+        "soldItems": [],
+        "itemsOnSale": [],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 970,
+        "purchaseHistory": []
+    },
+    {
+        "username": "josje",
+        "password": "seller6_password",
+        "id": 6,
+        "name": "Josje",
+        "soldItems": [],
+        "itemsOnSale": [
+            "006"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 754,
+        "purchaseHistory": []
+    },
+    {
+        "username": "ally",
+        "password": "seller7_password",
+        "id": 7,
+        "name": "Ally",
+        "soldItems": [],
+        "itemsOnSale": [
+            "004"
+        ],
+        "isLoggedIn": false,
+        "type": "seller",
+        "balance": 524,
+        "purchaseHistory": []
+    }
+]

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9b27ed6dd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>FRH - Add Item</title>
+    <link rel="stylesheet" href="/public/styles/add_item.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Navigation -->
+    <div id="nav"></div>
+
+    <!-- Page Title -->
+    <h2 class="page-title">Add an Item</h2>
+
+    <!-- main -->
+    <section class="main">
+
+      <form id="upload-form">
+        <label for="item-title">Item Title :</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="quantity">Quantity :</label>
+        <input type="number" id="available_quantity" name="available_quantity" required />
+
+        <label for="price">Price :</label>
+        <input type="text" id="price" name="price" required />
+
+        <label for="img">image URL :</label>
+        <input type="text" id="image_url" name="image_url" required />
+
+        <!-- <h2>Add Details</h2> -->
+        <!-- ADD DROPDOWN -->
+        <label for="category">Category :</label>
+        <!-- <input type="" id="item-title" name="item-title" required> -->
+        <select name="category" class="dropdown-categories">
+          <option id="category" selected disabled hidden>
+            Choose a category
+          </option>
+          <option value="painting">Painting</option>
+          <option value="sculpture">Sculpture</option>
+          <option value="pottery">Pottery</option>
+          <option value="drawing or illustration">
+            Drawing or Illustration
+          </option>
+          <option value="digital art">Digital Art</option>
+        </select>
+
+        <label for="description">Description :</label>
+        <!-- <input type="text" id="description" name="description" required> -->
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+
+        <button type="submit" class="submit-button">Add to shop</button>
+      </form>
+    </section>
+  </body>
+  <footer>
+    <p>Made by FRH</p>
+    <p>Hams Gelban | FatemaElzahraa Elrotel | Rouaa Naim</p>
+  </footer>
+
+  <script src="/public/js/add_item.js"></script>
+  <script src="/public/js/common.js"></script>
+
+</html>
